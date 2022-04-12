@@ -1,0 +1,36 @@
+{
+  "name": "unit-testing-ts",
+  "version": "1.0.0",
+  "description": "Testing TypeScript with Mocha and Chai",
+  "scripts": {
+    "test-all": "mocha -r ts-node/register */*test.ts",
+    "test-00": "mocha -r ts-node/register */greetFriend.test.ts",
+    "test-01": "mocha -r ts-node/register */titleCaseEdit.test.ts",
+    "test-02": "mocha -r ts-node/register */subtractFive.test.ts",
+    "test-03": "mocha -r ts-node/register */cutInHalfAndFloor.test.ts",
+    "test-04": "mocha -r ts-node/register */countOfAllBooleans.test.ts",
+    "test-05": "mocha -r ts-node/register */countOfAllBooleansAndStrings.test.ts",
+    "test-06": "mocha -r ts-node/register */countOfAllNumbersSmallerThanTarget.test.ts",
+    "test-07": "mocha -r ts-node/register */countOfAllIndexMatchingNumbers.test.ts",
+    "test-08": "mocha -r ts-node/register */sumOfAllEvenNumbers.test.ts",
+    "test-09": "mocha -r ts-node/register */sumOfAllOddNumbers.test.ts",
+    "test-10": "mocha -r ts-node/register */sumOfNumsWithinARange.test.ts",
+    "test-11": "mocha -r ts-node/register */sumOfMinimumAndMaximum.test.ts",
+    "test-12": "mocha -r ts-node/register */fizzBuzz.test.ts",
+    "test-13": "mocha -r ts-node/register */isPalindrome.test.ts",
+    "test-14": "mocha -r ts-node/register */frequencyCounter.test.ts",
+    "test-15": "mocha -r ts-node/register */countDownSum.test.ts",
+    "test-16": "mocha -r ts-node/register */productOfAnyAmountOfNumbers.test.ts",
+    "test-17": "mocha -r ts-node/register */setUnionOfAnyAmountOfSets.test.ts",
+    "test-18": "mocha -r ts-node/register */pairSum.test.ts",
+    "test-19": "mocha -r ts-node/register */binarySearch.test.ts"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.1.2",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "ts-node": "^10.7.0"
+  }
+}
