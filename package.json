@@ -23,7 +23,8 @@
     "test-16": "mocha -r ts-node/register */productOfAnyAmountOfNumbers.test.ts",
     "test-17": "mocha -r ts-node/register */setUnionOfAnyAmountOfSets.test.ts",
     "test-18": "mocha -r ts-node/register */pairSum.test.ts",
-    "test-19": "mocha -r ts-node/register */binarySearch.test.ts"
+    "test-19": "mocha -r ts-node/register */binarySearch.test.ts",
+    "test-20": "mocha -r ts-node/register */isAnagram.test.ts"
   },
   "devDependencies": {
     "@faker-js/faker": "^6.1.2",
