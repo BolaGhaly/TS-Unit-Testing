@@ -10,12 +10,10 @@ Write out a function, (`isAnagram(s,t)`). For input, you will be given a string 
 Return true if t is an anagram of s. Otherwise, return the false value.
 
 ## Examples
-```html
-<ol>
-<li>isAnagram("door", "doorman") -----> false</li>
-<li>isAnagram("boy", "bought") -----> false</li>
-<li>isAnagram("read", "red") -----> false</li>
-<li>isAnagram("battle", "tablet") -----> true</li>
-<li>isAnagram("silent", "listen") -----> true</li>
-</ol>
+```
+isAnagram("door", "doorman") -----> false
+isAnagram("boy", "bought") -----> false
+isAnagram("read", "red") -----> false
+isAnagram("battle", "tablet") -----> true
+isAnagram("silent", "listen") -----> true
 ```
