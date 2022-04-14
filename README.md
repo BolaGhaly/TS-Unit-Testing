@@ -18,3 +18,4 @@
 * 17-setUnionOfAnyAmountOfSets
 * 18-pairSum
 * 19-binarySearch
+* 20-isAnagram
