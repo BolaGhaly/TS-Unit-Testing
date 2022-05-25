@@ -9,7 +9,7 @@ Given two strings, write a function to determine if there is a word anagram rela
 
 ## Task
 Write out a function, `isAnagram(str1,str2)`. For input, you will be given a string referenced as str1 and a string referenced as str2. For output, you will return a boolean.
-Return true if str2 is an anagram of str1. Otherwise, return the false value.
+Return true if str2 is an anagram of str1. Otherwise, return false.
 
 ## Examples
 ```
